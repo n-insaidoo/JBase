@@ -19,7 +19,7 @@ public class JBase implements Serializable {
 
     private List<Table> tables;
     private String fileName;
-    private final String operatorRegExp = "(\\s<[=]?\\s|\\s>[=]?\\s|\\s[!]?=\\s|\\sEQUALSIGNORECASE\\s|\\sCONTAINS\\s|\\sCONTAINSIGNORECASE\\s)";
+    private final String operatorRegExp = "(\\s[<>]{1}=?\\s|\\s!?=\\s|\\sEQUALSIGNORECASE\\s|\\sCONTAINS\s|\\sCONTAINSIGNORECASE\\s)";
 
     /**
      * Constructor
