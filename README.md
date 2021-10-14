@@ -1,5 +1,5 @@
 # JBase
-JBase is a simple `Java` project that primarily mimics a `MySQL` database using a binary file as means of storage.
+JBase is a simple `Java` project that primarily mimics a `MySQL` database using a binary file as means of storage!
 
 
 JBase consists of three Classes (`JBase`, `Table` and `Row`) related through association and allows to:
